@@ -1,0 +1,10 @@
+{
+  "name": "Shaken, not stirred",
+  "version": "0.1",
+  "description": "Removes fucking remixes from VK audio search unless you really searched for them",
+  "manifest_version": 2,
+  "content_scripts": [ {
+    "js": [ "jquery-2.0.2.min.js", "background.js" ],
+    "matches": [ "http://vk.com/*", "https://vk.com/*"]
+  }]
+}
