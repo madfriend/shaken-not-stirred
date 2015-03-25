@@ -16,3 +16,9 @@ Tracks with these words in either artist or title field are not shown:
 Once you enter one of these terms in the search field, filtering is disabled for all terms.
 
 Some debugging output can be found in the console.
+
+## Future work
+
+- use vanilla JS instead of jQuery
+- add extension icon (click on which should toggle the filtering)
+- make this extension an all-purpose sanitizer: e.g. some titles definitely need to be cleared of links, years, etc)
